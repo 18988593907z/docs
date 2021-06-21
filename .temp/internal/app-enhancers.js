@@ -1,6 +1,6 @@
 import m0 from "D:\\VSProject\\docs\\.temp\\app-enhancers\\0.js"
 import m1 from "D:\\VSProject\\docs\\.temp\\app-enhancers\\data-block.js"
-import m2 from "D:\\VSProject\\docs\\.temp\\app-enhancers\\global-components-5.js"
+import m2 from "D:\\VSProject\\docs\\.temp\\app-enhancers\\global-components-82.js"
 import m3 from "D:\\VSProject\\docs\\.temp\\app-enhancers\\1.js"
 
 export default [
