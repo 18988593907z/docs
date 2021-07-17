@@ -8,6 +8,35 @@ export const siteData = {
   "headTags": [],
   "pages": [
     {
+      "title": "Home",
+      "frontmatter": {
+        "home": true,
+        "heroText": "Hero 标题",
+        "tagline": "Hero 副标题",
+        "actionText": "快速上手 →",
+        "actionLink": "/zh/guide/",
+        "features": [
+          {
+            "title": "简洁至上",
+            "details": "以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。"
+          },
+          {
+            "title": "Vue驱动",
+            "details": "享受 Vue + webpack 的开发体验，在 Markdown 中使用 Vue 组件，同时可以使用 Vue 来开发自定义主题。"
+          },
+          {
+            "title": "高性能",
+            "details": "VuePress 为每个页面预渲染生成静态的 HTML，同时在页面被加载的时候，将作为 SPA 运行。"
+          }
+        ],
+        "footer": "MIT Licensed | Copyright © 2018-present Evan You"
+      },
+      "regularPath": "/",
+      "relativePath": "README.md",
+      "key": "v-fb7049f0",
+      "path": "/"
+    },
+    {
       "title": "CSS",
       "frontmatter": {
         "title": "CSS"
@@ -68,40 +97,167 @@ export const siteData = {
       ]
     },
     {
-      "title": "Home",
-      "frontmatter": {
-        "home": true,
-        "heroText": "Hero 标题",
-        "tagline": "Hero 副标题",
-        "actionText": "快速上手 →",
-        "actionLink": "/zh/guide/",
-        "features": [
-          {
-            "title": "简洁至上",
-            "details": "以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。"
-          },
-          {
-            "title": "Vue驱动",
-            "details": "享受 Vue + webpack 的开发体验，在 Markdown 中使用 Vue 组件，同时可以使用 Vue 来开发自定义主题。"
-          },
-          {
-            "title": "高性能",
-            "details": "VuePress 为每个页面预渲染生成静态的 HTML，同时在页面被加载的时候，将作为 SPA 运行。"
-          }
-        ],
-        "footer": "MIT Licensed | Copyright © 2018-present Evan You"
-      },
-      "regularPath": "/",
-      "relativePath": "README.md",
-      "key": "v-fb7049f0",
-      "path": "/"
-    },
-    {
       "frontmatter": {},
       "regularPath": "/contact.html",
       "relativePath": "contact.md",
       "key": "v-85dbdeda",
       "path": "/contact.html"
+    },
+    {
+      "title": "c-aaa",
+      "frontmatter": {
+        "title": "c-aaa"
+      },
+      "regularPath": "/css/c-aaa.html",
+      "relativePath": "css/c-aaa.md",
+      "key": "v-0ce55166",
+      "path": "/css/c-aaa.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "二级标题1",
+          "slug": "二级标题1"
+        },
+        {
+          "level": 3,
+          "title": "三级标题1",
+          "slug": "三级标题1"
+        },
+        {
+          "level": 3,
+          "title": "三级标题2",
+          "slug": "三级标题2"
+        },
+        {
+          "level": 3,
+          "title": "三级标题3",
+          "slug": "三级标题3"
+        },
+        {
+          "level": 2,
+          "title": "二级标题2",
+          "slug": "二级标题2"
+        },
+        {
+          "level": 3,
+          "title": "三级标题1",
+          "slug": "三级标题1-2"
+        },
+        {
+          "level": 3,
+          "title": "三级标题2",
+          "slug": "三级标题2-2"
+        },
+        {
+          "level": 3,
+          "title": "三级标题3",
+          "slug": "三级标题3-2"
+        }
+      ]
+    },
+    {
+      "title": "c-bbb",
+      "frontmatter": {
+        "title": "c-bbb"
+      },
+      "regularPath": "/css/c-bbb.html",
+      "relativePath": "css/c-bbb.md",
+      "key": "v-6d46bfc6",
+      "path": "/css/c-bbb.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "二级标题1",
+          "slug": "二级标题1"
+        },
+        {
+          "level": 3,
+          "title": "三级标题1",
+          "slug": "三级标题1"
+        },
+        {
+          "level": 3,
+          "title": "三级标题2",
+          "slug": "三级标题2"
+        },
+        {
+          "level": 3,
+          "title": "三级标题3",
+          "slug": "三级标题3"
+        },
+        {
+          "level": 2,
+          "title": "二级标题2",
+          "slug": "二级标题2"
+        },
+        {
+          "level": 3,
+          "title": "三级标题1",
+          "slug": "三级标题1-2"
+        },
+        {
+          "level": 3,
+          "title": "三级标题2",
+          "slug": "三级标题2-2"
+        },
+        {
+          "level": 3,
+          "title": "三级标题3",
+          "slug": "三级标题3-2"
+        }
+      ]
+    },
+    {
+      "title": "c-ccc",
+      "frontmatter": {
+        "title": "c-ccc"
+      },
+      "regularPath": "/css/c-ccc.html",
+      "relativePath": "css/c-ccc.md",
+      "key": "v-64afa3b4",
+      "path": "/css/c-ccc.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "二级标题1",
+          "slug": "二级标题1"
+        },
+        {
+          "level": 3,
+          "title": "三级标题1",
+          "slug": "三级标题1"
+        },
+        {
+          "level": 3,
+          "title": "三级标题2",
+          "slug": "三级标题2"
+        },
+        {
+          "level": 3,
+          "title": "三级标题3",
+          "slug": "三级标题3"
+        },
+        {
+          "level": 2,
+          "title": "二级标题2",
+          "slug": "二级标题2"
+        },
+        {
+          "level": 3,
+          "title": "三级标题1",
+          "slug": "三级标题1-2"
+        },
+        {
+          "level": 3,
+          "title": "三级标题2",
+          "slug": "三级标题2-2"
+        },
+        {
+          "level": 3,
+          "title": "三级标题3",
+          "slug": "三级标题3-2"
+        }
+      ]
     },
     {
       "title": "HTML",
@@ -225,162 +381,6 @@ export const siteData = {
       ]
     },
     {
-      "title": "c-bbb",
-      "frontmatter": {
-        "title": "c-bbb"
-      },
-      "regularPath": "/css/c-bbb.html",
-      "relativePath": "css/c-bbb.md",
-      "key": "v-6d46bfc6",
-      "path": "/css/c-bbb.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "二级标题1",
-          "slug": "二级标题1"
-        },
-        {
-          "level": 3,
-          "title": "三级标题1",
-          "slug": "三级标题1"
-        },
-        {
-          "level": 3,
-          "title": "三级标题2",
-          "slug": "三级标题2"
-        },
-        {
-          "level": 3,
-          "title": "三级标题3",
-          "slug": "三级标题3"
-        },
-        {
-          "level": 2,
-          "title": "二级标题2",
-          "slug": "二级标题2"
-        },
-        {
-          "level": 3,
-          "title": "三级标题1",
-          "slug": "三级标题1-2"
-        },
-        {
-          "level": 3,
-          "title": "三级标题2",
-          "slug": "三级标题2-2"
-        },
-        {
-          "level": 3,
-          "title": "三级标题3",
-          "slug": "三级标题3-2"
-        }
-      ]
-    },
-    {
-      "title": "c-aaa",
-      "frontmatter": {
-        "title": "c-aaa"
-      },
-      "regularPath": "/css/c-aaa.html",
-      "relativePath": "css/c-aaa.md",
-      "key": "v-0ce55166",
-      "path": "/css/c-aaa.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "二级标题1",
-          "slug": "二级标题1"
-        },
-        {
-          "level": 3,
-          "title": "三级标题1",
-          "slug": "三级标题1"
-        },
-        {
-          "level": 3,
-          "title": "三级标题2",
-          "slug": "三级标题2"
-        },
-        {
-          "level": 3,
-          "title": "三级标题3",
-          "slug": "三级标题3"
-        },
-        {
-          "level": 2,
-          "title": "二级标题2",
-          "slug": "二级标题2"
-        },
-        {
-          "level": 3,
-          "title": "三级标题1",
-          "slug": "三级标题1-2"
-        },
-        {
-          "level": 3,
-          "title": "三级标题2",
-          "slug": "三级标题2-2"
-        },
-        {
-          "level": 3,
-          "title": "三级标题3",
-          "slug": "三级标题3-2"
-        }
-      ]
-    },
-    {
-      "title": "c-ccc",
-      "frontmatter": {
-        "title": "c-ccc"
-      },
-      "regularPath": "/css/c-ccc.html",
-      "relativePath": "css/c-ccc.md",
-      "key": "v-64afa3b4",
-      "path": "/css/c-ccc.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "二级标题1",
-          "slug": "二级标题1"
-        },
-        {
-          "level": 3,
-          "title": "三级标题1",
-          "slug": "三级标题1"
-        },
-        {
-          "level": 3,
-          "title": "三级标题2",
-          "slug": "三级标题2"
-        },
-        {
-          "level": 3,
-          "title": "三级标题3",
-          "slug": "三级标题3"
-        },
-        {
-          "level": 2,
-          "title": "二级标题2",
-          "slug": "二级标题2"
-        },
-        {
-          "level": 3,
-          "title": "三级标题1",
-          "slug": "三级标题1-2"
-        },
-        {
-          "level": 3,
-          "title": "三级标题2",
-          "slug": "三级标题2-2"
-        },
-        {
-          "level": 3,
-          "title": "三级标题3",
-          "slug": "三级标题3-2"
-        }
-      ]
-    },
-    {
       "title": "h-ccc",
       "frontmatter": {
         "title": "h-ccc"
@@ -450,14 +450,14 @@ export const siteData = {
       ]
     },
     {
-      "title": "j-aaa",
+      "title": "j-bbb",
       "frontmatter": {
-        "title": "j-aaa"
+        "title": "j-bbb"
       },
-      "regularPath": "/javascript/j-aaa.html",
-      "relativePath": "javascript/j-aaa.md",
-      "key": "v-bc010298",
-      "path": "/javascript/j-aaa.html",
+      "regularPath": "/javascript/j-bbb.html",
+      "relativePath": "javascript/j-bbb.md",
+      "key": "v-6c772ab2",
+      "path": "/javascript/j-bbb.html",
       "headers": [
         {
           "level": 2,
@@ -502,14 +502,14 @@ export const siteData = {
       ]
     },
     {
-      "title": "j-bbb",
+      "title": "j-aaa",
       "frontmatter": {
-        "title": "j-bbb"
+        "title": "j-aaa"
       },
-      "regularPath": "/javascript/j-bbb.html",
-      "relativePath": "javascript/j-bbb.md",
-      "key": "v-6c772ab2",
-      "path": "/javascript/j-bbb.html",
+      "regularPath": "/javascript/j-aaa.html",
+      "relativePath": "javascript/j-aaa.md",
+      "key": "v-bc010298",
+      "path": "/javascript/j-aaa.html",
       "headers": [
         {
           "level": 2,
@@ -626,7 +626,6 @@ export const siteData = {
       ],
       "/": [
         "",
-        "contact",
         "about",
         "/html/",
         "/css/",
@@ -675,7 +674,7 @@ export const siteData = {
       },
       {
         "text": "External",
-        "link": "https://google.com",
+        "link": "https://www.baidu.com",
         "target": "_self",
         "rel": ""
       },

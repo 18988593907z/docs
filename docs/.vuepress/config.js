@@ -30,7 +30,6 @@ module.exports = {
             ],
             '/': [
                 '',
-                'contact',
                 'about',
                 '/html/',
                 '/css/',
@@ -57,7 +56,7 @@ module.exports = {
                     }
                 ]
             },
-            { text: 'External', link: 'https://google.com', target: '_self', rel: '' },
+            { text: 'External', link: 'https://www.baidu.com', target: '_self', rel: '' },
             { text: 'Guide', link: '/guide/', target: '_blank' },
 
         ]
