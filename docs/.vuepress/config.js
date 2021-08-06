@@ -1,6 +1,30 @@
+const moment = require('moment');
+
+moment.locale("zh-cn");
+
 module.exports = {
+
+    title: "一个vuepress网站",
+    description: "一个vuepress学习项目",
+    head: [
+        ['link',{rel:'icon', href: '/assets/img/ThinkingFace.png'}],
+        ['meta',{name:'author', content: 'Zhang'}],
+        ['meta',{name:'keywords', content: 'vuepress'}],
+    ],
+    plugins: [
+        [
+            '@vuepress/last-updated',
+            {
+                transformer: (timestamp) =>{
+                    return moment(timestamp).format("LLLL")
+                }
+            }
+        ]
+    ],
     themeConfig: {
-        logo: './public/assets/img/logo.png',
+        lastUpdated: '更新时间',
+        logo: '/assets/img/logo.png',
+        //displayAllHeaders: true, // 默认值：false 显示所有页面标题
         //navbar: false,禁用导航栏
         //sidebar: 'auto',
         // sidebar: [
@@ -12,7 +36,7 @@ module.exports = {
         //         path: ''
         //     }
         // ],
-        sidebar: {
+        sidebar: {//侧边栏
             '/html/': [
                 'h-aaa',
                 'h-bbb',
@@ -36,7 +60,7 @@ module.exports = {
                 '/javascript/'
             ],
         },
-        nav: [
+        nav: [//顶部导航栏
             { text: 'Home', link: '/' },
             { text: 'Guide', link: '/about' },
             {

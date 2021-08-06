@@ -1,5 +1,5 @@
 ---
-navbar: false
+navbar: false ###禁用指定页面导航栏
 title: '关于我'
 ---
 ## 关于我
