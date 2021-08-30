@@ -1,6 +1,6 @@
 const moment = require('moment');
 
-moment.locale("zh-cn");
+moment.locale("zh-cn");//不考虑多语言
 
 module.exports = {
 
