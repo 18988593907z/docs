@@ -3,7 +3,7 @@ const moment = require('moment');
 moment.locale("zh-cn");//不考虑多语言
 
 module.exports = {
-    base: "/docs/",
+    // base: "/docs/",
     title: "一个vuepress网站",
     description: "一个vuepress学习项目",
     head: [
