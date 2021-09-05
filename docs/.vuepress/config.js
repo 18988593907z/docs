@@ -19,7 +19,44 @@ module.exports = {
                     return moment(timestamp).format("LLLL")
                 }
             }
-        ]
+        ],
+        [
+            '@vuepress/pwa',
+            {
+                serviceWorker: true,
+                updatePopup: 
+                {
+                    message: "发现新内容可用.",
+                    buttonText: "刷新"
+                }
+            }
+        ],
+        // [
+        //     '@vssue/vuepress-plugin-vssue',
+        //     {
+        //         // 设置 `platform` 而不是 `api`
+        //         platform: 'github-v4',
+          
+        //         // 其他的 Vssue 配置
+        //         owner: 'yitoumiemie',
+        //         repo: 'docs',
+        //         clientId: 'f13039e164905bb473e9',
+        //         clientSecret: '705104717e0263adea9a3a5dbdf172c0c5ebd85c',
+        //         autoCreateIssue: true,
+        //     },
+        // ],
+        [
+            'vuepress-plugin-comment',
+            {
+              choosen: 'valine', 
+              // options选项中的所有参数，会传给Valine的配置
+              options: {
+                el: '#valine-vuepress-comment',
+                appId: 'bBflOchfJXySHs7oxfVMaVhL-gzGzoHsz',
+                appKey: 'E20DGz1IfKSaDRFxXQSlOkTm'
+              }
+            }
+          ]
     ],
     themeConfig: {
         lastUpdated: '更新时间',
@@ -75,7 +112,6 @@ module.exports = {
                     {
                         text: 'English', items: [
                             { text: 'BritishEnglish', link: '/about' },
-                            { text: 'AmericaEnglish', link: '/about' },
                         ]
                     }
                 ]

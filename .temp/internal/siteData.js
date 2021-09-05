@@ -4,13 +4,13 @@
 export const siteData = {
   "title": "一个vuepress网站",
   "description": "一个vuepress学习项目",
-  "base": "/docs/",
+  "base": "/",
   "headTags": [
     [
       "link",
       {
         "rel": "icon",
-        "href": "/docs/assets/img/ThinkingFace.png"
+        "href": "/assets/img/ThinkingFace.png"
       }
     ],
     [
@@ -29,63 +29,6 @@ export const siteData = {
     ]
   ],
   "pages": [
-    {
-      "title": "Home",
-      "frontmatter": {
-        "home": true,
-        "heroImage": "/assets/img/logo.png",
-        "heroText": "Hero 标题",
-        "tagline": "Hero 副标题",
-        "actionText": "快速上手 →",
-        "actionLink": "/zh/guide/",
-        "features": [
-          {
-            "title": "简洁至上",
-            "details": "以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。"
-          },
-          {
-            "title": "Vue驱动",
-            "details": "享受 Vue + webpack 的开发体验，在 Markdown 中使用 Vue 组件，同时可以使用 Vue 来开发自定义主题。"
-          },
-          {
-            "title": "高性能",
-            "details": "VuePress 为每个页面预渲染生成静态的 HTML，同时在页面被加载的时候，将作为 SPA 运行。"
-          }
-        ],
-        "footer": "Created By Zhang | MIT Licensed | Copyright © 2018-present Evan You"
-      },
-      "regularPath": "/",
-      "relativePath": "README.md",
-      "key": "v-fb7049f0",
-      "path": "/",
-      "lastUpdated": "2021年8月6日星期五下午4点48分"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/contact.html",
-      "relativePath": "contact.md",
-      "key": "v-85dbdeda",
-      "path": "/contact.html",
-      "lastUpdated": "2021年6月21日星期一晚上9点45分"
-    },
-    {
-      "title": "CSS",
-      "frontmatter": {
-        "title": "CSS"
-      },
-      "regularPath": "/css/",
-      "relativePath": "css/README.md",
-      "key": "v-4bb8748d",
-      "path": "/css/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "你好 CSS",
-          "slug": "你好-css"
-        }
-      ],
-      "lastUpdated": "2021年6月21日星期一晚上9点45分"
-    },
     {
       "title": "关于我",
       "frontmatter": {
@@ -129,6 +72,32 @@ export const siteData = {
         }
       ],
       "lastUpdated": "2021年8月6日星期五下午4点48分"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/contact.html",
+      "relativePath": "contact.md",
+      "key": "v-85dbdeda",
+      "path": "/contact.html",
+      "lastUpdated": "2021年6月21日星期一晚上9点45分"
+    },
+    {
+      "title": "CSS",
+      "frontmatter": {
+        "title": "CSS"
+      },
+      "regularPath": "/css/",
+      "relativePath": "css/README.md",
+      "key": "v-4bb8748d",
+      "path": "/css/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "你好 CSS",
+          "slug": "你好-css"
+        }
+      ],
+      "lastUpdated": "2021年6月21日星期一晚上9点45分"
     },
     {
       "title": "c-aaa",
@@ -184,57 +153,35 @@ export const siteData = {
       "lastUpdated": "2021年6月21日星期一晚上9点45分"
     },
     {
-      "title": "c-ccc",
+      "title": "Home",
       "frontmatter": {
-        "title": "c-ccc"
+        "home": true,
+        "heroImage": "/assets/img/logo.png",
+        "heroText": "Hero 标题",
+        "tagline": "Hero 副标题",
+        "actionText": "快速上手 →",
+        "actionLink": "/zh/guide/",
+        "features": [
+          {
+            "title": "简洁至上",
+            "details": "以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。"
+          },
+          {
+            "title": "Vue驱动",
+            "details": "享受 Vue + webpack 的开发体验，在 Markdown 中使用 Vue 组件，同时可以使用 Vue 来开发自定义主题。"
+          },
+          {
+            "title": "高性能",
+            "details": "VuePress 为每个页面预渲染生成静态的 HTML，同时在页面被加载的时候，将作为 SPA 运行。"
+          }
+        ],
+        "footer": "Created By Zhang | MIT Licensed | Copyright © 2018-present Evan You"
       },
-      "regularPath": "/css/c-ccc.html",
-      "relativePath": "css/c-ccc.md",
-      "key": "v-64afa3b4",
-      "path": "/css/c-ccc.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "二级标题1",
-          "slug": "二级标题1"
-        },
-        {
-          "level": 3,
-          "title": "三级标题1",
-          "slug": "三级标题1"
-        },
-        {
-          "level": 3,
-          "title": "三级标题2",
-          "slug": "三级标题2"
-        },
-        {
-          "level": 3,
-          "title": "三级标题3",
-          "slug": "三级标题3"
-        },
-        {
-          "level": 2,
-          "title": "二级标题2",
-          "slug": "二级标题2"
-        },
-        {
-          "level": 3,
-          "title": "三级标题1",
-          "slug": "三级标题1-2"
-        },
-        {
-          "level": 3,
-          "title": "三级标题2",
-          "slug": "三级标题2-2"
-        },
-        {
-          "level": 3,
-          "title": "三级标题3",
-          "slug": "三级标题3-2"
-        }
-      ],
-      "lastUpdated": "2021年6月21日星期一晚上9点45分"
+      "regularPath": "/",
+      "relativePath": "README.md",
+      "key": "v-fb7049f0",
+      "path": "/",
+      "lastUpdated": "2021年8月6日星期五下午4点48分"
     },
     {
       "title": "HTML",
@@ -250,165 +197,6 @@ export const siteData = {
           "level": 2,
           "title": "你好 HTML",
           "slug": "你好-html"
-        }
-      ],
-      "lastUpdated": "2021年6月21日星期一晚上9点45分"
-    },
-    {
-      "title": "c-bbb",
-      "frontmatter": {
-        "title": "c-bbb"
-      },
-      "regularPath": "/css/c-bbb.html",
-      "relativePath": "css/c-bbb.md",
-      "key": "v-6d46bfc6",
-      "path": "/css/c-bbb.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "二级标题1",
-          "slug": "二级标题1"
-        },
-        {
-          "level": 3,
-          "title": "三级标题1",
-          "slug": "三级标题1"
-        },
-        {
-          "level": 3,
-          "title": "三级标题2",
-          "slug": "三级标题2"
-        },
-        {
-          "level": 3,
-          "title": "三级标题3",
-          "slug": "三级标题3"
-        },
-        {
-          "level": 2,
-          "title": "二级标题2",
-          "slug": "二级标题2"
-        },
-        {
-          "level": 3,
-          "title": "三级标题1",
-          "slug": "三级标题1-2"
-        },
-        {
-          "level": 3,
-          "title": "三级标题2",
-          "slug": "三级标题2-2"
-        },
-        {
-          "level": 3,
-          "title": "三级标题3",
-          "slug": "三级标题3-2"
-        }
-      ],
-      "lastUpdated": "2021年6月21日星期一晚上9点45分"
-    },
-    {
-      "title": "h-aaa",
-      "frontmatter": {
-        "title": "h-aaa"
-      },
-      "regularPath": "/html/h-aaa.html",
-      "relativePath": "html/h-aaa.md",
-      "key": "v-2f941b08",
-      "path": "/html/h-aaa.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "二级标题1",
-          "slug": "二级标题1"
-        },
-        {
-          "level": 3,
-          "title": "三级标题1",
-          "slug": "三级标题1"
-        },
-        {
-          "level": 3,
-          "title": "三级标题2",
-          "slug": "三级标题2"
-        },
-        {
-          "level": 3,
-          "title": "三级标题3",
-          "slug": "三级标题3"
-        },
-        {
-          "level": 2,
-          "title": "二级标题2",
-          "slug": "二级标题2"
-        },
-        {
-          "level": 3,
-          "title": "三级标题1",
-          "slug": "三级标题1-2"
-        },
-        {
-          "level": 3,
-          "title": "三级标题2",
-          "slug": "三级标题2-2"
-        },
-        {
-          "level": 3,
-          "title": "三级标题3",
-          "slug": "三级标题3-2"
-        }
-      ],
-      "lastUpdated": "2021年6月21日星期一晚上9点45分"
-    },
-    {
-      "title": "h-ccc",
-      "frontmatter": {
-        "title": "h-ccc"
-      },
-      "regularPath": "/html/h-ccc.html",
-      "relativePath": "html/h-ccc.md",
-      "key": "v-1aaf80f8",
-      "path": "/html/h-ccc.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "二级标题1",
-          "slug": "二级标题1"
-        },
-        {
-          "level": 3,
-          "title": "三级标题1",
-          "slug": "三级标题1"
-        },
-        {
-          "level": 3,
-          "title": "三级标题2",
-          "slug": "三级标题2"
-        },
-        {
-          "level": 3,
-          "title": "三级标题3",
-          "slug": "三级标题3"
-        },
-        {
-          "level": 2,
-          "title": "二级标题2",
-          "slug": "二级标题2"
-        },
-        {
-          "level": 3,
-          "title": "三级标题1",
-          "slug": "三级标题1-2"
-        },
-        {
-          "level": 3,
-          "title": "三级标题2",
-          "slug": "三级标题2-2"
-        },
-        {
-          "level": 3,
-          "title": "三级标题3",
-          "slug": "三级标题3-2"
         }
       ],
       "lastUpdated": "2021年6月21日星期一晚上9点45分"
@@ -485,14 +273,14 @@ export const siteData = {
       "lastUpdated": "2021年6月21日星期一晚上9点45分"
     },
     {
-      "title": "j-bbb",
+      "title": "h-aaa",
       "frontmatter": {
-        "title": "j-bbb"
+        "title": "h-aaa"
       },
-      "regularPath": "/javascript/j-bbb.html",
-      "relativePath": "javascript/j-bbb.md",
-      "key": "v-6c772ab2",
-      "path": "/javascript/j-bbb.html",
+      "regularPath": "/html/h-aaa.html",
+      "relativePath": "html/h-aaa.md",
+      "key": "v-2f941b08",
+      "path": "/html/h-aaa.html",
       "headers": [
         {
           "level": 2,
@@ -591,6 +379,59 @@ export const siteData = {
       "lastUpdated": "2021年6月21日星期一晚上9点45分"
     },
     {
+      "title": "j-bbb",
+      "frontmatter": {
+        "title": "j-bbb"
+      },
+      "regularPath": "/javascript/j-bbb.html",
+      "relativePath": "javascript/j-bbb.md",
+      "key": "v-6c772ab2",
+      "path": "/javascript/j-bbb.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "二级标题1",
+          "slug": "二级标题1"
+        },
+        {
+          "level": 3,
+          "title": "三级标题1",
+          "slug": "三级标题1"
+        },
+        {
+          "level": 3,
+          "title": "三级标题2",
+          "slug": "三级标题2"
+        },
+        {
+          "level": 3,
+          "title": "三级标题3",
+          "slug": "三级标题3"
+        },
+        {
+          "level": 2,
+          "title": "二级标题2",
+          "slug": "二级标题2"
+        },
+        {
+          "level": 3,
+          "title": "三级标题1",
+          "slug": "三级标题1-2"
+        },
+        {
+          "level": 3,
+          "title": "三级标题2",
+          "slug": "三级标题2-2"
+        },
+        {
+          "level": 3,
+          "title": "三级标题3",
+          "slug": "三级标题3-2"
+        }
+      ],
+      "lastUpdated": "2021年6月21日星期一晚上9点45分"
+    },
+    {
       "title": "j-ccc",
       "frontmatter": {
         "title": "j-ccc"
@@ -599,6 +440,165 @@ export const siteData = {
       "relativePath": "javascript/j-ccc.md",
       "key": "v-36eed6b0",
       "path": "/javascript/j-ccc.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "二级标题1",
+          "slug": "二级标题1"
+        },
+        {
+          "level": 3,
+          "title": "三级标题1",
+          "slug": "三级标题1"
+        },
+        {
+          "level": 3,
+          "title": "三级标题2",
+          "slug": "三级标题2"
+        },
+        {
+          "level": 3,
+          "title": "三级标题3",
+          "slug": "三级标题3"
+        },
+        {
+          "level": 2,
+          "title": "二级标题2",
+          "slug": "二级标题2"
+        },
+        {
+          "level": 3,
+          "title": "三级标题1",
+          "slug": "三级标题1-2"
+        },
+        {
+          "level": 3,
+          "title": "三级标题2",
+          "slug": "三级标题2-2"
+        },
+        {
+          "level": 3,
+          "title": "三级标题3",
+          "slug": "三级标题3-2"
+        }
+      ],
+      "lastUpdated": "2021年6月21日星期一晚上9点45分"
+    },
+    {
+      "title": "h-ccc",
+      "frontmatter": {
+        "title": "h-ccc"
+      },
+      "regularPath": "/html/h-ccc.html",
+      "relativePath": "html/h-ccc.md",
+      "key": "v-1aaf80f8",
+      "path": "/html/h-ccc.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "二级标题1",
+          "slug": "二级标题1"
+        },
+        {
+          "level": 3,
+          "title": "三级标题1",
+          "slug": "三级标题1"
+        },
+        {
+          "level": 3,
+          "title": "三级标题2",
+          "slug": "三级标题2"
+        },
+        {
+          "level": 3,
+          "title": "三级标题3",
+          "slug": "三级标题3"
+        },
+        {
+          "level": 2,
+          "title": "二级标题2",
+          "slug": "二级标题2"
+        },
+        {
+          "level": 3,
+          "title": "三级标题1",
+          "slug": "三级标题1-2"
+        },
+        {
+          "level": 3,
+          "title": "三级标题2",
+          "slug": "三级标题2-2"
+        },
+        {
+          "level": 3,
+          "title": "三级标题3",
+          "slug": "三级标题3-2"
+        }
+      ],
+      "lastUpdated": "2021年6月21日星期一晚上9点45分"
+    },
+    {
+      "title": "c-bbb",
+      "frontmatter": {
+        "title": "c-bbb"
+      },
+      "regularPath": "/css/c-bbb.html",
+      "relativePath": "css/c-bbb.md",
+      "key": "v-6d46bfc6",
+      "path": "/css/c-bbb.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "二级标题1",
+          "slug": "二级标题1"
+        },
+        {
+          "level": 3,
+          "title": "三级标题1",
+          "slug": "三级标题1"
+        },
+        {
+          "level": 3,
+          "title": "三级标题2",
+          "slug": "三级标题2"
+        },
+        {
+          "level": 3,
+          "title": "三级标题3",
+          "slug": "三级标题3"
+        },
+        {
+          "level": 2,
+          "title": "二级标题2",
+          "slug": "二级标题2"
+        },
+        {
+          "level": 3,
+          "title": "三级标题1",
+          "slug": "三级标题1-2"
+        },
+        {
+          "level": 3,
+          "title": "三级标题2",
+          "slug": "三级标题2-2"
+        },
+        {
+          "level": 3,
+          "title": "三级标题3",
+          "slug": "三级标题3-2"
+        }
+      ],
+      "lastUpdated": "2021年6月21日星期一晚上9点45分"
+    },
+    {
+      "title": "c-ccc",
+      "frontmatter": {
+        "title": "c-ccc"
+      },
+      "regularPath": "/css/c-ccc.html",
+      "relativePath": "css/c-ccc.md",
+      "key": "v-64afa3b4",
+      "path": "/css/c-ccc.html",
       "headers": [
         {
           "level": 2,
@@ -701,10 +701,6 @@ export const siteData = {
             "items": [
               {
                 "text": "BritishEnglish",
-                "link": "/about"
-              },
-              {
-                "text": "AmericaEnglish",
                 "link": "/about"
               }
             ]

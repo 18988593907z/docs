@@ -20,6 +20,13 @@
   },
   "homepage": "https://github.com/yitoumiemie/docs#readme",
   "dependencies": {
-    "moment": "^2.29.1"
+    "@vssue/api-github-v4": "^1.4.7",
+    "@vssue/vuepress-plugin-vssue": "^1.4.8",
+    "moment": "^2.29.1",
+    "valine": "^1.4.14",
+    "vuepress-plugin-comment": "^0.7.3"
+  },
+  "devDependencies": {
+    "@vuepress/plugin-pwa": "^1.8.2"
   }
 }
