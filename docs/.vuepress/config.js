@@ -7,7 +7,7 @@ module.exports = {
     // base: "/docs/",
     title: "一个vuepress网站",
     description: "一个vuepress学习项目",
-    head: headConf,
+    // head: headConf,
     plugins: pluginsConf,
     themeConfig: {
         lastUpdated: '更新时间',

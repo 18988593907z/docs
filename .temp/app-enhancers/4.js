@@ -1,0 +1,1 @@
+export { default } from "D:\\VSProject\\docs\\node_modules\\@vuepress\\plugin-google-analytics\\enhanceAppFile.js"

@@ -5,86 +5,7 @@ export const siteData = {
   "title": "一个vuepress网站",
   "description": "一个vuepress学习项目",
   "base": "/",
-  "headTags": [
-    [
-      "link",
-      {
-        "rel": "icon",
-        "href": "/assets/img/ThinkingFace.png"
-      }
-    ],
-    [
-      "meta",
-      {
-        "name": "author",
-        "content": "Zhang"
-      }
-    ],
-    [
-      "meta",
-      {
-        "name": "keywords",
-        "content": "vuepress"
-      }
-    ],
-    [
-      "link",
-      {
-        "rel": "manifest",
-        "href": "/manifest.json"
-      }
-    ],
-    [
-      "meta",
-      {
-        "name": "theme-color",
-        "content": "#3eaf7c"
-      }
-    ],
-    [
-      "meta",
-      {
-        "name": "apple-mobile-web-app-capable",
-        "content": "yes"
-      }
-    ],
-    [
-      "meta",
-      {
-        "name": "apple-mobile-web-app-status-bar-style",
-        "content": "black"
-      }
-    ],
-    [
-      "link",
-      {
-        "rel": "apple-touch-icon",
-        "href": "icons/apple-touch-icon-152x152.png"
-      }
-    ],
-    [
-      "link",
-      {
-        "rel": "mask-icon",
-        "href": "/icons/safari-pinned-tab.svg",
-        "color": "#3eaf7e"
-      }
-    ],
-    [
-      "meta",
-      {
-        "name": "msapplication-TileImage",
-        "content": "/icons/msapplication-icon-144x144.png"
-      }
-    ],
-    [
-      "meta",
-      {
-        "name": "msapplication-TileColor",
-        "content": "#000000"
-      }
-    ]
-  ],
+  "headTags": [],
   "pages": [
     {
       "title": "Home",
@@ -116,34 +37,6 @@ export const siteData = {
       "key": "v-fb7049f0",
       "path": "/",
       "lastUpdated": "2021年8月6日星期五下午4点48分"
-    },
-    {
-      "title": "滕王阁序",
-      "frontmatter": {
-        "title": "滕王阁序"
-      },
-      "regularPath": "/article.html",
-      "relativePath": "article.md",
-      "key": "v-7ab7ba53",
-      "path": "/article.html"
-    },
-    {
-      "title": "CSS",
-      "frontmatter": {
-        "title": "CSS"
-      },
-      "regularPath": "/css/",
-      "relativePath": "css/README.md",
-      "key": "v-4bb8748d",
-      "path": "/css/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "你好 CSS",
-          "slug": "你好-css"
-        }
-      ],
-      "lastUpdated": "2021年6月21日星期一晚上9点45分"
     },
     {
       "title": "关于我",
@@ -190,54 +83,40 @@ export const siteData = {
       "lastUpdated": "2021年9月5日星期日下午1点31分"
     },
     {
-      "title": "c-aaa",
+      "title": "滕王阁序",
       "frontmatter": {
-        "title": "c-aaa"
+        "title": "滕王阁序"
       },
-      "regularPath": "/css/c-aaa.html",
-      "relativePath": "css/c-aaa.md",
-      "key": "v-0ce55166",
-      "path": "/css/c-aaa.html",
+      "regularPath": "/article.html",
+      "relativePath": "article.md",
+      "key": "v-7ab7ba53",
+      "path": "/article.html",
+      "lastUpdated": "2021年9月6日星期一下午2点33分"
+    },
+    {
+      "title": "CountUp 第三方组件",
+      "frontmatter": {
+        "title": "CountUp 第三方组件"
+      },
+      "regularPath": "/countup.html",
+      "relativePath": "countup.md",
+      "key": "v-16300ad3",
+      "path": "/countup.html"
+    },
+    {
+      "title": "CSS",
+      "frontmatter": {
+        "title": "CSS"
+      },
+      "regularPath": "/css/",
+      "relativePath": "css/README.md",
+      "key": "v-4bb8748d",
+      "path": "/css/",
       "headers": [
         {
           "level": 2,
-          "title": "二级标题1",
-          "slug": "二级标题1"
-        },
-        {
-          "level": 3,
-          "title": "三级标题1",
-          "slug": "三级标题1"
-        },
-        {
-          "level": 3,
-          "title": "三级标题2",
-          "slug": "三级标题2"
-        },
-        {
-          "level": 3,
-          "title": "三级标题3",
-          "slug": "三级标题3"
-        },
-        {
-          "level": 2,
-          "title": "二级标题2",
-          "slug": "二级标题2"
-        },
-        {
-          "level": 3,
-          "title": "三级标题1",
-          "slug": "三级标题1-2"
-        },
-        {
-          "level": 3,
-          "title": "三级标题2",
-          "slug": "三级标题2-2"
-        },
-        {
-          "level": 3,
-          "title": "三级标题3",
-          "slug": "三级标题3-2"
+          "title": "你好 CSS",
+          "slug": "你好-css"
         }
       ],
       "lastUpdated": "2021年6月21日星期一晚上9点45分"
@@ -251,59 +130,6 @@ export const siteData = {
       "relativePath": "css/c-bbb.md",
       "key": "v-6d46bfc6",
       "path": "/css/c-bbb.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "二级标题1",
-          "slug": "二级标题1"
-        },
-        {
-          "level": 3,
-          "title": "三级标题1",
-          "slug": "三级标题1"
-        },
-        {
-          "level": 3,
-          "title": "三级标题2",
-          "slug": "三级标题2"
-        },
-        {
-          "level": 3,
-          "title": "三级标题3",
-          "slug": "三级标题3"
-        },
-        {
-          "level": 2,
-          "title": "二级标题2",
-          "slug": "二级标题2"
-        },
-        {
-          "level": 3,
-          "title": "三级标题1",
-          "slug": "三级标题1-2"
-        },
-        {
-          "level": 3,
-          "title": "三级标题2",
-          "slug": "三级标题2-2"
-        },
-        {
-          "level": 3,
-          "title": "三级标题3",
-          "slug": "三级标题3-2"
-        }
-      ],
-      "lastUpdated": "2021年6月21日星期一晚上9点45分"
-    },
-    {
-      "title": "c-ccc",
-      "frontmatter": {
-        "title": "c-ccc"
-      },
-      "regularPath": "/css/c-ccc.html",
-      "relativePath": "css/c-ccc.md",
-      "key": "v-64afa3b4",
-      "path": "/css/c-ccc.html",
       "headers": [
         {
           "level": 2,
@@ -367,59 +193,6 @@ export const siteData = {
       "lastUpdated": "2021年6月21日星期一晚上9点45分"
     },
     {
-      "title": "h-bbb",
-      "frontmatter": {
-        "title": "h-bbb"
-      },
-      "regularPath": "/html/h-bbb.html",
-      "relativePath": "html/h-bbb.md",
-      "key": "v-0172b9ba",
-      "path": "/html/h-bbb.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "二级标题1",
-          "slug": "二级标题1"
-        },
-        {
-          "level": 3,
-          "title": "三级标题1",
-          "slug": "三级标题1"
-        },
-        {
-          "level": 3,
-          "title": "三级标题2",
-          "slug": "三级标题2"
-        },
-        {
-          "level": 3,
-          "title": "三级标题3",
-          "slug": "三级标题3"
-        },
-        {
-          "level": 2,
-          "title": "二级标题2",
-          "slug": "二级标题2"
-        },
-        {
-          "level": 3,
-          "title": "三级标题1",
-          "slug": "三级标题1-2"
-        },
-        {
-          "level": 3,
-          "title": "三级标题2",
-          "slug": "三级标题2-2"
-        },
-        {
-          "level": 3,
-          "title": "三级标题3",
-          "slug": "三级标题3-2"
-        }
-      ],
-      "lastUpdated": "2021年6月21日星期一晚上9点45分"
-    },
-    {
       "title": "h-aaa",
       "frontmatter": {
         "title": "h-aaa"
@@ -473,6 +246,59 @@ export const siteData = {
       "lastUpdated": "2021年6月21日星期一晚上9点45分"
     },
     {
+      "title": "h-bbb",
+      "frontmatter": {
+        "title": "h-bbb"
+      },
+      "regularPath": "/html/h-bbb.html",
+      "relativePath": "html/h-bbb.md",
+      "key": "v-0172b9ba",
+      "path": "/html/h-bbb.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "二级标题1",
+          "slug": "二级标题1"
+        },
+        {
+          "level": 3,
+          "title": "三级标题1",
+          "slug": "三级标题1"
+        },
+        {
+          "level": 3,
+          "title": "三级标题2",
+          "slug": "三级标题2"
+        },
+        {
+          "level": 3,
+          "title": "三级标题3",
+          "slug": "三级标题3"
+        },
+        {
+          "level": 2,
+          "title": "二级标题2",
+          "slug": "二级标题2"
+        },
+        {
+          "level": 3,
+          "title": "三级标题1",
+          "slug": "三级标题1-2"
+        },
+        {
+          "level": 3,
+          "title": "三级标题2",
+          "slug": "三级标题2-2"
+        },
+        {
+          "level": 3,
+          "title": "三级标题3",
+          "slug": "三级标题3-2"
+        }
+      ],
+      "lastUpdated": "2021年6月21日星期一晚上9点45分"
+    },
+    {
       "title": "h-ccc",
       "frontmatter": {
         "title": "h-ccc"
@@ -481,6 +307,59 @@ export const siteData = {
       "relativePath": "html/h-ccc.md",
       "key": "v-1aaf80f8",
       "path": "/html/h-ccc.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "二级标题1",
+          "slug": "二级标题1"
+        },
+        {
+          "level": 3,
+          "title": "三级标题1",
+          "slug": "三级标题1"
+        },
+        {
+          "level": 3,
+          "title": "三级标题2",
+          "slug": "三级标题2"
+        },
+        {
+          "level": 3,
+          "title": "三级标题3",
+          "slug": "三级标题3"
+        },
+        {
+          "level": 2,
+          "title": "二级标题2",
+          "slug": "二级标题2"
+        },
+        {
+          "level": 3,
+          "title": "三级标题1",
+          "slug": "三级标题1-2"
+        },
+        {
+          "level": 3,
+          "title": "三级标题2",
+          "slug": "三级标题2-2"
+        },
+        {
+          "level": 3,
+          "title": "三级标题3",
+          "slug": "三级标题3-2"
+        }
+      ],
+      "lastUpdated": "2021年6月21日星期一晚上9点45分"
+    },
+    {
+      "title": "c-aaa",
+      "frontmatter": {
+        "title": "c-aaa"
+      },
+      "regularPath": "/css/c-aaa.html",
+      "relativePath": "css/c-aaa.md",
+      "key": "v-0ce55166",
+      "path": "/css/c-aaa.html",
       "headers": [
         {
           "level": 2,
@@ -605,6 +484,59 @@ export const siteData = {
       "relativePath": "javascript/j-bbb.md",
       "key": "v-6c772ab2",
       "path": "/javascript/j-bbb.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "二级标题1",
+          "slug": "二级标题1"
+        },
+        {
+          "level": 3,
+          "title": "三级标题1",
+          "slug": "三级标题1"
+        },
+        {
+          "level": 3,
+          "title": "三级标题2",
+          "slug": "三级标题2"
+        },
+        {
+          "level": 3,
+          "title": "三级标题3",
+          "slug": "三级标题3"
+        },
+        {
+          "level": 2,
+          "title": "二级标题2",
+          "slug": "二级标题2"
+        },
+        {
+          "level": 3,
+          "title": "三级标题1",
+          "slug": "三级标题1-2"
+        },
+        {
+          "level": 3,
+          "title": "三级标题2",
+          "slug": "三级标题2-2"
+        },
+        {
+          "level": 3,
+          "title": "三级标题3",
+          "slug": "三级标题3-2"
+        }
+      ],
+      "lastUpdated": "2021年6月21日星期一晚上9点45分"
+    },
+    {
+      "title": "c-ccc",
+      "frontmatter": {
+        "title": "c-ccc"
+      },
+      "regularPath": "/css/c-ccc.html",
+      "relativePath": "css/c-ccc.md",
+      "key": "v-64afa3b4",
+      "path": "/css/c-ccc.html",
       "headers": [
         {
           "level": 2,
