@@ -1,23 +1,52 @@
 module.exports = [//顶部导航栏
-    { text: 'Home', link: '/' },
-    { text: 'Guide', link: '/about' },
+    { text: '主页', link: '/' },
+    { text: '了解更多', link: '/about' },
     {
-        text: 'Languages',
+        text: '项目',
         items: [
             {
-                text: '中文', items: [
-                    { text: '简中', link: '/' },
-                    { text: '繁中', link: '/about' },
+                text: '前端', items: [
+                    { text: 'ProjectA', link: '/' },
+                    { text: 'ProjectB', link: '/about' },
                 ]
             },
             {
-                text: 'English', items: [
-                    { text: 'BritishEnglish', link: '/about' },
+                text: '后端', items: [
+                    { text: 'ProjectC', link: '/about' },
                 ]
-            }
+            },
+            {
+                text: '全栈', items: [
+                    { text: 'ProjectD', link: '/' },
+                    { text: 'ProjectE', link: '/about' },
+                ]
+            },
         ]
     },
-    { text: 'External', link: 'https://www.baidu.com', target: '_self', rel: '' },
-    { text: 'Article', link: '/article/', target: '_self' },
-    { text: 'Guide', link: '/guide/', target: '_blank' },
+    {
+        text: '面试相关',
+        items: [
+            {
+                text: 'Java', items: [
+                    { text: 'basis', link: '/pages/java/basis/Java基础知识/' },
+                    { text: 'basis', link: '/pages/java/basis/Java常见关键字总结/' },
+                    { text: 'basis', link: '/pages/java/basis/Java基础知识疑难点/' },
+                ]
+            },
+            {
+                text: '后端', items: [
+                    { text: 'ProjectC', link: '/about' },
+                ]
+            },
+            {
+                text: '全栈', items: [
+                    { text: 'ProjectD', link: '/' },
+                    { text: 'ProjectE', link: '/about' },
+                ]
+            },
+        ]
+    },
+    { text: '基础知识', link: '/knowledge/', target: '_self', rel: '' },
+    { text: 'leetcode算法', link: '/article/', target: '_self' },
+    { text: '关于我', link: 'https://github.com/yitoumiemie/', target: '_blank' },
 ]

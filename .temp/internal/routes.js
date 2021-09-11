@@ -21,19 +21,19 @@ export const routes = [
     redirect: "/"
   },
   {
-    name: "v-08d62473",
-    path: "/about.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-08d62473").then(next)
-    },
-  },
-  {
     name: "v-7ab7ba53",
     path: "/article.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-7ab7ba53").then(next)
+    },
+  },
+  {
+    name: "v-08d62473",
+    path: "/about.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-08d62473").then(next)
     },
   },
   {
@@ -57,11 +57,27 @@ export const routes = [
     redirect: "/css/"
   },
   {
+    name: "v-0ce55166",
+    path: "/css/c-aaa.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-0ce55166").then(next)
+    },
+  },
+  {
     name: "v-6d46bfc6",
     path: "/css/c-bbb.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-6d46bfc6").then(next)
+    },
+  },
+  {
+    name: "v-64afa3b4",
+    path: "/css/c-ccc.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-64afa3b4").then(next)
     },
   },
   {
@@ -101,14 +117,6 @@ export const routes = [
     },
   },
   {
-    name: "v-0ce55166",
-    path: "/css/c-aaa.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-0ce55166").then(next)
-    },
-  },
-  {
     name: "v-665ec0cb",
     path: "/javascript/",
     component: GlobalLayout,
@@ -134,14 +142,6 @@ export const routes = [
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-6c772ab2").then(next)
-    },
-  },
-  {
-    name: "v-64afa3b4",
-    path: "/css/c-ccc.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-64afa3b4").then(next)
     },
   },
   {
