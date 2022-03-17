@@ -28,9 +28,10 @@ module.exports = [//顶部导航栏
         items: [
             {
                 text: 'Java', items: [
-                    { text: 'basis', link: '/pages/java/basis/Java基础知识/' },
-                    { text: 'basis', link: '/pages/java/basis/Java常见关键字总结/' },
-                    { text: 'basis', link: '/pages/java/basis/Java基础知识疑难点/' },
+                    { text: 'basis0', link: '/Java基础知识/', target: '_self'  },
+                    { text: 'basis1', link: '/pages/java/basis/Java基础知识/', target: '_self'   },
+                    { text: 'basis2', link: '/pages/java/basis/Java常见关键字总结/', target: '_self'   },
+                    { text: 'basis3', link: '/pages/java/basis/Java基础知识疑难点/', target: '_self'   },
                 ]
             },
             {

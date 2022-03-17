@@ -14,6 +14,11 @@ module.exports = {//侧边栏
         'j-bbb',
         'j-ccc',
     ],
+    '/pages/java/basis/': [
+        'Java基础知识',
+        'Java基础知识疑难点',
+        'Java常见关键字总结',
+    ],
     '/': [
         '',
         'about',
